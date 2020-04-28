@@ -1,5 +1,5 @@
-# IMDB-Crawler
-Web scraping with Python and BeautifulSoup for 200 Bollywood actors and their information and images from IMDB.
+# Extraction of info
+ExtractionWeb scraping with Python and BeautifulSoup for 200 Bollywood actors and their information and images from IMDB.
 
 # Prerequisites
 Beautifulsoup4 and SQLite3 to run.Install missing packages with pip3:
@@ -7,5 +7,7 @@ Beautifulsoup4 and SQLite3 to run.Install missing packages with pip3:
 
 # Running and Testing
 Run actors.py first if bolly.db hasn't been generated:
-' python3 actors.py '
+' python3 extraction.py '
+after extraction the information will get automatically stored in .csv file
+from .csv file extracted data is imported into DATABASE using XAMPP
 
